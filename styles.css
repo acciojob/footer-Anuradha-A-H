@@ -31,13 +31,23 @@
     }
     
     .media-icons a {
+		width:20px;
+		height:20px;
         border-radius: 50%;
         color: aliceblue;
-        font-size: 12px;
-        align-items: center;
+        font-size: 25px;
+		display:flex;
+		justify-content:center;
         margin-right: 20px;
         padding: 15px;
     }
+/* .icons-design{
+	height:40px;
+	width:40px;
+	background-color:#4267B2;
+	border-radius:50%;
+	margin-right:20px;
+} */
     
     #icon-1 {
         background-color: #4267B2;
@@ -61,6 +71,8 @@
     
     .link-boxes {
         margin-top: 20px;
+		display:flex;
+		justify-content:center;
     }
     
     #table {
