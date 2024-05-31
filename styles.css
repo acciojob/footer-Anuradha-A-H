@@ -1,1 +1,96 @@
 /* your code here */
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .content {
+        background-color: #000000;
+        color: white;
+        width: 100vw;
+        height: 300px;
+        padding-top: 10px;
+    }
+    
+    .top {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .media-icons {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .logo_name {
+        font-size:30px;
+        font-weight: bold;
+    }
+    
+    .icon {
+        border-radius: 50%;
+        color: aliceblue;
+        font-size: 12px;
+        align-items: center;
+        margin-right: 20px;
+        padding: 15px;
+    }
+    
+    #icon-1 {
+        background-color: #4267B2;
+    }
+    
+    #icon-2 {
+        background-color: #1DA1F2;
+    }
+    
+    #icon-3 {
+        background-color: #E1306C;
+    }
+    
+    #icon-4 {
+        background-color: #0077B5;
+    }
+    
+    #icon-5 {
+        background-color: #FF0000;
+    }
+    
+    .link-boxes {
+        margin-top: 20px;
+    }
+    
+    #table {
+        align-items: center;
+        width: 100%;
+        text-align: left;
+        margin-left: 30px;
+    }
+    
+    #row-1 > th > a {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        padding-bottom: 3px;
+        border-bottom: 2px solid white;
+    }
+    
+    .row > td {
+        padding: 10px;
+    }
+
+    
+
+.bottom-details{
+    padding: 30px;
+    display: flex;
+    height: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C303A;
+    color: #909297;
+}
+
